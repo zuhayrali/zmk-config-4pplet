@@ -17,5 +17,4 @@ include:
   #- board: cyber60@rev_b
   #- board: cyber60@rev_c
   - board: cyber60@rev_d
-    shield: settings_reset
   #- board: cyber60@rev_e

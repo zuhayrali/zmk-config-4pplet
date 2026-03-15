@@ -6,9 +6,6 @@ if BOARD_CYBER60
 config ZMK_KEYBOARD_NAME
 	default "cyber60"
 
-config ZMK_SETTINGS_RESET_ON_START
-    default y
-
 if USB
 
 config USB_NRFX
