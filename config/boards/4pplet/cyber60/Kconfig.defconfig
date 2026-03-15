@@ -30,6 +30,9 @@ config BT_DIS_MANUF
 config BT_DIS_MODEL
 	default "Cyber60"
 
+config ZMK_BLE_EXPERIMENTAL_FEATURES
+	default y 
+
 endif # BT
 
 config BT_CTLR
