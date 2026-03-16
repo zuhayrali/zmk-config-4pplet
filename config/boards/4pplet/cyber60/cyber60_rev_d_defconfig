@@ -46,3 +46,7 @@ CONFIG_UART_LINE_CTRL=y
 # Enable sleep, default set to 45 min (defined in ms)
 CONFIG_ZMK_SLEEP=y
 CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=2700000
+
+# Bluetooth Settings https://zmk.dev/docs/config/bluetooth
+CONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y
+CONFIG_ZMK_BLE_PASSKEY_ENTRY=y
