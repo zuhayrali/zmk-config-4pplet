@@ -5,10 +5,10 @@ board:
     - name: nrf52840
   revision:
     format: custom
-    default: rev_e
+    default: rev_d
     revisions:
-      - name: rev_a
-      - name: rev_b
-      - name: rev_c
+      # - name: rev_a
+      # - name: rev_b
+      # - name: rev_c
       - name: rev_d
-      - name: rev_e
+      # - name: rev_e
